@@ -489,24 +489,32 @@ h2  {
     
 }
 
+.accommodation-item-more-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 375px;
+}
+
 .accommodation-item-more-link {
     display: block;
-    margin-top: 375px;
+    padding:0;
+    
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 200%;
+    line-height: 1;
     color: #FFFFFF;
 }
 
 .accommodation-item-more-link-icon {
     display: inline-block;
-    vertical-align: middle;
-    background-image: url(/img/arrow-right-white-svg.svg);
-    height: 16px;
-    width: 16px;
+    margin-left: 5px;
+    height:20px;
+    width: 20px;
+    background: url(/img/arrow-right-white-svg.svg) center center no-repeat transparent;    
     background-size: contain;
-    background-repeat: no-repeat;
+    
 }
 
 
